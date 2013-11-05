@@ -4,19 +4,19 @@ GEM
     addressable (2.3.5)
     faraday (0.8.8)
       multipart-post (~> 1.2.0)
-    ffi (1.9.3)
-    libnotify (0.8.2)
-      ffi (>= 1.0.11)
     multipart-post (1.2.0)
+    netrc (0.7.7)
     octokit (2.5.1)
       sawyer (~> 0.5.1)
     sawyer (0.5.1)
       addressable (~> 2.3.5)
       faraday (~> 0.8, < 0.10)
+    terminal-notifier (1.5.1)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  libnotify
+  netrc
   octokit
+  terminal-notifier

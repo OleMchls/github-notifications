@@ -1,5 +1,6 @@
 # A sample Gemfile
 source "https://rubygems.org"
 
-gem "libnotify"
+gem "terminal-notifier"
 gem "octokit"
+gem "netrc"
